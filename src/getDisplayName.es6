@@ -1,4 +1,4 @@
-export default function getDisplayName(Component) {
+function getDisplayName(Component) {
   return (
     Component.displayName ||
     Component.name ||
@@ -7,3 +7,5 @@ export default function getDisplayName(Component) {
       : 'Unknown')
   );
 }
+
+module.exports = getDisplayName;
