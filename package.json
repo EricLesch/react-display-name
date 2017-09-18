@@ -2,9 +2,9 @@
   "name": "react-display-name",
   "version": "0.2.3",
   "description": "utility to return a react components display name",
-  "main": "./lib/getDisplayName.js",
+  "main": "./src/getDisplayName.js",
   "files": [
-    "lib"
+    "src"
   ],
   "scripts": {
     "build:lib": "mkdirp lib && babel src -d lib",
